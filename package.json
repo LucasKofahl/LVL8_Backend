@@ -1,0 +1,22 @@
+{
+  "name": "lvl8-backend",
+  "version": "1.0.0",
+  "description": "API desenvolvida no programa Explorer da Rocket Seat, para estudo de backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "Lucas Kofahl dos Passos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": []
+}
