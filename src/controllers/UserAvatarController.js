@@ -28,6 +28,6 @@ class UserAvatarController {
 
     return response.json(user);
   };
-};
+}; 
 
 module.exports = UserAvatarController;
